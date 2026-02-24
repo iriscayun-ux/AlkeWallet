@@ -28,11 +28,11 @@ El proyecto está organizado en las siguientes carpetas y archivos:
 
  Diagrama Relacional
 
-![Diagrama Relacional](docs/Diagrama_realacional.png)
+![Diagrama Relacional](Docs/Diagrama_realacional.png)
 
 Transacciones de un Usuario
 
-![Transacciones de un Usuario](docs/transacciones_de_un_usuario.png)
+![Transacciones de un Usuario](Docs/transacciones_de_un_usuario.png)
 
  Autora
 
