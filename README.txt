@@ -1,24 +1,47 @@
- Evaluación modulo 5 "Proyecto AlkeWallet"
+# Evaluación Módulo 5 - Proyecto AlkeWallet
 
-Este es el proyecto **AlkeWallet**, un sistema de gestión de billetera virtual. El proyecto está compuesto por un conjunto de archivos SQL para crear y gestionar la base de datos, procedimientos almacenados, y consultas SQL para manejar las transacciones y usuarios.
+Este es el proyecto AlkeWallet, un sistema de gestión de billetera virtual.  
+El proyecto está compuesto por un conjunto de archivos SQL para crear y gestionar la base de datos, procedimientos almacenados y consultas SQL para manejar las transacciones y usuarios.
 
-1. Estructura del Proyecto
+
+
+## 1. Estructura del Proyecto
 
 El proyecto está organizado en las siguientes carpetas y archivos:
 
-Archivos SQL:
-- 01_Creacion_Base_de_datos.sql: Crea la base de datos AlkeWallety las tablas necesarias (usuarios, transacciones, monedas).
+### Archivos SQL
 
-- 02_Insertar_Datos.sql: Inserta datos de ejemplo en las tablas usuarios y moneda.
+- 01_Creacion_Base_de_datos.sql  
+  Crea la base de datos AlkeWallet y las tablas necesarias (usuarios, transaccion, moneda).
 
-- 03_Insertar_Transferencias.sql: Inserta transacciones entre usuarios.
+- 02_Insertar_Datos.sql  
+  Inserta datos de ejemplo en las tablas usuarios y moneda.
 
-- 04_Procedimientos.sql: Crea el procedimiento almacenado.
-**`transferir_fondos`** para realizar transacciones entre usuarios.
+- 03_Insertar_Transferencias.sql  
+  Inserta transacciones entre usuarios.
 
-- 05_Consultas.sql: Consultas SQL para obtener información de transacciones, usuarios, y más.
+- 04_Procedimientos.sql  
+  Crea el procedimiento almacenado transferir_fondos para realizar transacciones entre usuarios.
 
-2. Carpeta Docs:
-- **`Diagrama_relacional.png`**: Diagrama de la base de datos con relaciones y claves foráneas.
-- **`transacciones_de_un_usuario.png`**: Ejemplo visual de las transacciones realizadas por un usuario específico.
+- 05_Consultas.sql  
+  Contiene consultas SQL para obtener información de transacciones, usuarios y movimientos.
 
+
+
+## 2. Imagenes
+
+### Diagrama Relacional
+
+![Diagrama Relacional](docs/Diagrama_relacional.png)
+
+
+
+### Transacciones de un Usuario
+
+![Transacciones de un Usuario](docs/transacciones_de_un_usuario.png)
+
+
+
+## Autora
+
+Iris Cayun
